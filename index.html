@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сельскохозяйственная техника</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f1f8e9; /* Light green background */
+            color: #000;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1b5e20, #43a047); /* Green gradient */
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        nav {
+            background-color: #1b5e20; /* Dark green */
+            padding: 1rem;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav li {
+            margin: 0 1.5rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #c8e6c9; /* Lighter green on hover */
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        h1, h2, h3 {
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        
+        .highlight {
+            background-color: #e8f5e9; /* Pale green highlight */
+            padding: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            margin: 1.5rem 0;
+        }
+        
+        .contact-form {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #1b5e20; /* Green text for labels */
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #1b5e20, #43a047); /* Green button */
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: linear-gradient(135deg, #2e7d32, #66bb6a);
+        }
+        
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .cookie-consent {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #2e7d32;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .cookie-consent button {
+            background-color: white;
+            color: #1b5e20;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .contact-info {
+            background-color: #e8f5e9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Сельскохозяйственная техника</h1>
+        <p>Современное оборудование для эффективного сельского хозяйства</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#equipment">Техника</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="content">
+            <h2 id="about">Современная сельскохозяйственная техника</h2>
+            <p>Сельскохозяйственная техника играет ключевую роль в современном агропромышленном комплексе. Она позволяет значительно повысить производительность труда, сократить сроки выполнения работ и уменьшить зависимость от человеческого фактора. В условиях растущего населения планеты и увеличения потребности в продовольствии эффективное использование сельхозтехники становится не просто преимуществом, а необходимостью.</p>
+            
+            <div class="highlight">
+                <h3>Эволюция сельхозтехники</h3>
+                <p>История сельскохозяйственной техники насчитывает тысячелетия. От простейших ручных орудий древности до современных умных комбайнов с системами автономного управления - путь технологического развития впечатляет. В XIX веке с появлением паровых двигателей началась механизация сельского хозяйства, а в XX веке дизельные и бензиновые двигатели произвели настоящую революцию в агропромышленном комплексе.</p>
+            </div>
+            
+            <p>Сегодня сельскохозяйственная техника представляет собой сложные технологические комплексы, оснащенные системами GPS-навигации, датчиками контроля урожайности, автоматическими системами управления и телематикой. Эти технологии позволяют фермерам точно дозировать внесение удобрений и средств защиты растений, оптимизировать маршруты движения техники и собирать детальную аналитику по каждому участку поля.</p>
+            
+            <h3 id="equipment">Основные виды сельскохозяйственной техники</h3>
+            <p>Современный парк сельскохозяйственной техники включает множество специализированных машин, каждая из которых выполняет определенные функции в технологической цепочке производства сельхозпродукции.</p>
+            
+            <p><strong>Тракторы</strong> - универсальные энергетические средства, которые используются для выполнения широкого спектра работ: вспашки, боронования, посева, транспортировки грузов и привода стационарных машин. Современные тракторы оснащаются компьютеризированными системами управления, климат-контролем в кабине и автоматическими коробками передач.</p>
+            
+            <p><strong>Комбайны</strong> - сложные уборочные машины, предназначенные для одновременного выполнения нескольких операций: скашивания, обмолота, очистки и погрузки зерна. Существуют зерноуборочные, кормоуборочные, свеклоуборочные и другие специализированные комбайны. Современные модели оснащаются системами точного земледелия, которые позволяют составлять карты урожайности и оптимизировать использование ресурсов.</p>
+            
+            <p><strong>Посевные комплексы</strong> - техника для точного высева семян с одновременным внесением удобрений. Современные сеялки обеспечивают равномерное распределение семян на заданную глубину с точным соблюдением междурядий. Прецизионные системы позволяют высевать разные культуры или сорта на одном поле в соответствии с картой плодородия почвы.</p>
+            
+            <p><strong>Опрыскиватели</strong> - машины для внесения жидких средств защиты растений. Современные опрыскиватели оснащаются системами, предотвращающими снос рабочего раствора ветром, и точными дозаторами, которые регулируют норму внесения в зависимости от скорости движения и потребностей растений.</p>
+            
+            <p><strong>Кормоуборочная техника</strong> - специализированные машины для заготовки кормов: косилки, грабли, пресс-подборщики, кормоуборочные комбайны. Эта техника позволяет механизировать процессы заготовки сена, сенажа и силоса, сохраняя питательные свойства кормов.</p>
+            
+            <div class="highlight">
+                <h3>Тенденции развития сельхозтехники</h3>
+                <p>Современная сельскохозяйственная техника развивается в направлении повышения эффективности, экологичности и автоматизации. Все больше производителей внедряют электрические и гибридные силовые установки, что позволяет снизить выбросы вредных веществ и уменьшить зависимость от ископаемого топлива. Развиваются технологии точного земледелия, которые позволяют учитывать неоднородность почвенного покрова и оптимизировать использование ресурсов.</p>
+            </div>
+            
+            <p>Автономные системы управления становятся все более распространенными. Уже сегодня существуют тракторы и комбайны, способные работать без оператора в кабине. Эти машины используют комбинацию GPS-навигации, лидаров, камер и других датчиков для ориентации в пространстве и выполнения технологических операций. Полная автономность сельхозтехники - вопрос ближайшего будущего.</p>
+            
+            <p>Еще одной важной тенденцией является развитие технологий интернета вещей (IoT) в сельском хозяйстве. Сельхозтехника все чаще оснащается датчиками и телематическими системами, которые передают данные о работе машин, расходе топлива, урожайности и других параметрах в централизованные системы управления. Это позволяет фермерам принимать обоснованные решения на основе анализа больших данных.</p>
+            
+            <h3 id="services">Обслуживание и ремонт</h3>
+            <p>Техническое обслуживание сельскохозяйственной техники - важнейший аспект обеспечения ее бесперебойной работы в течение всего сезона. Регулярное обслуживание включает замену масел и фильтров, проверку систем охлаждения и гидравлики, регулировку рабочих органов. Своевременное техническое обслуживание не только продлевает срок службы техники, но и предотвращает дорогостоящие поломки в самый ответственный период полевых работ.</p>
+            
+            <p>Современные производители сельхозтехники предлагают сервисные контракты, которые включают регулярное техническое обслуживание, экстренный ремонт и поставку запасных частей. Такие контракты позволяют фермерам планировать расходы на содержание техники и минимизировать простои в период интенсивных работ.</p>
+            
+            <p>Важным направлением развития сервисного обслуживания является использование технологий дополненной реальности и удаленной диагностики. Специалисты сервисных центров могут дистанционно подключаться к системам техники, проводить диагностику и даже помогать операторам в выполнении ремонтных работ с помощью AR-инструкций.</p>
+            
+            <p>В условиях Беларуси, с ее специфическими почвенно-климатическими условиями, особое значение имеет адаптация сельхозтехники к местным условиям. Производители и дилеры предлагают специальные модификации машин, учитывающие особенности работы на тяжелых почвах и в условиях повышенной влажности.</p>
+            
+            <p>Развитие сельскохозяйственной техники продолжает ускоряться под влиянием цифровых технологий и растущих требований к эффективности и экологичности сельскохозяйственного производства. Инвестиции в современную технику и технологии становятся ключевым фактором конкурентоспособности сельхозпредприятий в условиях глобализации рынков.</p>
+        </div>
+        
+        <div class="contact-form">
+            <h2 id="contact">Форма обратной связи</h2>
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Электронная почта:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Номер телефона:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Отправить сообщение</button>
+            </form>
+            
+            <div class="contact-info">
+                <h3>Контактная информация</h3>
+                <p><strong>Адрес:</strong> г. Минск, ул. Тракторная, д. 15, офис 304, 220073, Беларусь</p>
+                <p><strong>Телефон:</strong> +375 (29) 123-45-67</p>
+                <p><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="553c3b333a153432273a2130363d7b372c">[email&#160;protected]</a></p>
+                <p><strong>Время работы:</strong> Пн-Пт: 9:00-18:00, Сб: 10:00-15:00</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Сельскохозяйственная техника. Все права защищены.</p>
+    </footer>
+    
+    <div class="cookie-consent" id="cookieConsent">
+        <div>
+            <p>Мы используем файлы cookie для улучшения работы сайта. Продолжая использование сайта, вы соглашаетесь с этим.</p>
+        </div>
+        <button id="acceptCookies">Принять</button>
+    </div>
+
+    <script>
+        // 1. Cookie Consent Logic
+        document.getElementById('acceptCookies').addEventListener('click', function() {
+            document.getElementById('cookieConsent').style.display = 'none';
+            document.cookie = "cookieConsent=true; max-age=2592000; path=/"; 
+        });
+        
+        // 2. Form Feedback Logic
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
+            this.reset();
+        });
+
+        // 3. CLOUDFLARE EMAIL DECODING LOGIC
+        // This script finds the encrypted hash and converts it back to info@agrotech.by
+        (function() {
+            function decodeEmail(encodedString) {
+                var email = "";
+                var r = parseInt(encodedString.substr(0, 2), 16); // The Key (first 2 chars)
+                for (var n = 2; n < encodedString.length; n += 2) {
+                    var charCode = parseInt(encodedString.substr(n, 2), 16) ^ r;
+                    email += String.fromCharCode(charCode);
+                }
+                return email;
+            }
+
+            var emailElements = document.querySelectorAll('.__cf_email__');
+            for (var i = 0; i < emailElements.length; i++) {
+                var element = emailElements[i];
+                var encoded = element.getAttribute('data-cfemail');
+                if (encoded) {
+                    var decoded = decodeEmail(encoded);
+                    // Creates a clickable mailto link
+                    var parentP = element.parentNode;
+                    parentP.innerHTML = '<strong>Email:</strong> <a href="mailto:'+decoded+'">'+decoded+'</a>';
+                }
+            }
+        })();
+    </script>
+</body>
+</html>
